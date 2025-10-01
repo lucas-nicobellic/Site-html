@@ -1,0 +1,28 @@
+
+
+.container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  color: blue;
+}
+.lacuna1{
+  justify-content: center;
+  display: flex;
+  height: 5vh;
+  margin: 0;
+  align-items: center;
+}

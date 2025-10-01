@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Conversor de Temperatura</h2>
+
+  <label for="celsius">Temperatura em °C:</label>
+  <input type="number" [(ngModel)]="celsius" placeholder="Digite a temperatura em Celsius">
+
+  <button (click)="converter()">Converter</button>
+
+  <div class="resultado" *ngIf="fahrenheit !== null && kelvin !== null">
+    <p>Fahrenheit: {{ fahrenheit }} °F</p>
+    <p>Kelvin: {{ kelvin }} K</p>
+  </div>
+</div>

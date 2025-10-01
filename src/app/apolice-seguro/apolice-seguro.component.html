@@ -1,0 +1,30 @@
+<div class="container">
+  <h2 class="conserto">Apólice de Seguro Automobilístico</h2><br>
+
+  <label >Nome do Segurado:</label>
+  <input type="text" [(ngModel)]="nome"><br>
+
+  <label>Sexo:</label><br>
+  <label>
+    <input type="radio" [(ngModel)]="sexo" value="masculino"> Masculino
+  </label>
+  <label>
+    <input  type="radio" [(ngModel)]="sexo" value="feminino"> Feminino
+  </label><br>
+
+  <label  >Idade:</label>
+  <input   type="number" [(ngModel)]="idade"><br>
+
+  <label  >Valor do Automóvel:</label>
+  <input   type="number" [(ngModel)]="valorAuto" step="0.01"><br>
+
+  <button   (click)="calcularApolice()">Calcular Apólice</button>
+
+  <div *ngIf="valorApolice !== undefined" class="resultado">
+    <p><strong>Segurado:</strong> {{ nome }}</p>
+    <p><strong>Sexo:</strong> {{ sexo }}</p>
+    <p><strong>Idade:</strong> {{ idade }}</p>
+    <p><strong>Valor do Automóvel:</strong> R$ {{ valorAuto }}</p>
+    <p><strong>Valor da Apólice:</strong> R$ {{ valorApolice }}</p>
+  </div>
+</div>
