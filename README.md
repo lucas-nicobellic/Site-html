@@ -17,3 +17,8 @@ TypeScript / HTML / CSS — para lógica, marcação e estilo da aplicação
 GitHub
 
 Estrutura de pastas típica de projetos Angular: src/, public/, docs/ etc.
+
+
+<h1>🏕️imagem ilustrativa</h1>
+
+<img src="Captura de tela 2025-10-01 232249.png">
