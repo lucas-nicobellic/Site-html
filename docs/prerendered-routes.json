@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/Site-html": {},
+    "/Site-html/apolice-seguro": {},
+    "/Site-html/calcular-imc": {},
+    "/Site-html/calcular-media": {},
+    "/Site-html/conversor-temperatura": {}
+  }
+}
